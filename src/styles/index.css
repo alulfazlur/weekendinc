@@ -65,7 +65,7 @@ html {
 .pb{
   padding-bottom: 201px;
   -moz-padding-bottom : 201px;
-  -webkit-padding-after : 230px
+  -webkit-padding-after : 203px
 }
 @media (max-width: 376px){
   .pb{
