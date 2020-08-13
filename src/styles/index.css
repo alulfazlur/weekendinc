@@ -1,0 +1,76 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  font-family: Work Sans, sans-serif;
+  height: 100%;
+}
+.bg-1{
+  background-image: url(../images//bg-1.svg);
+  background-repeat: no-repeat
+}
+.letsgo{
+  width: 231px;
+  height: 58px;
+  border-radius: 29px;
+  left: 50%
+}
+.deffinition{
+  width: 619px;
+  height: 160px;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.75px;
+  padding: 0 0;
+}
+.deffinition-sm{
+  width: 311px;
+  height: 168px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.57px;
+  text-align: right;
+  padding: 0 32px;
+}
+.bg-half{
+  background: linear-gradient(to top, black 70%, #eebece 30%);
+}
+.mask{
+  width: 621px;
+  height: 194px;
+  padding : 25px 0 29px 25px;
+  overflow: hidden;
+  display: inline-flex;
+}
+.slide{
+  box-shadow: 0 -10px 20px 0 rgba(249, 131, 171, 0.2);
+  min-width: 247px;
+}
+.bg-path{
+  background-image: url(../images//path-3.svg);
+  background-position: 87% 55%;
+  background-repeat: no-repeat
+  }
+  @media (max-width: 376px){
+    .bg-path{
+      background-image: none;
+    }
+  }
+.alpha{
+  width: 94px;
+  height: 18px;
+  border-radius: 9px;
+}
+.pb{
+  padding-bottom: 201px;
+  -moz-padding-bottom : 201px;
+  -webkit-padding-after : 230px
+}
+@media (max-width: 376px){
+  .pb{
+    padding-bottom: 0;
+    -moz-padding-bottom : 0;
+    -webkit-padding-after : 0
+  }
+}
