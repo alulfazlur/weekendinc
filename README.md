@@ -1,5 +1,5 @@
 # WeekendInc
-Make a web based on available design using ReactJs + Tailwindcss
+This project was made using ReactJs + TailwindCSS
 
 ## Deployed project:
 [Link](https://alul-weekend.netlify.app/)
