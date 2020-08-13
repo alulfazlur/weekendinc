@@ -1,7 +1,10 @@
 # WeekendInc
 Make a web based on available design using ReactJs + Tailwindcss
 
-## How to run this project:
+## Deployed project:
+[Link](https://alul-weekend.netlify.app/)
+
+## How to run this project on local:
 1. Clone the project
 2. Go to the project directory
 3. Run :
